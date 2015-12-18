@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta -->
+    <title>Welcome</title>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Frontend - Password Guessing Framework" />
+    <meta name="keywords" content="PGF, OMEN, JtR, PCFG, PRINCE, Password Guessing" />
+    <meta name="author" content="Maximilian Golla">
+    <meta name="author" content="Robin Flume">
+    <link rel="shortcut icon" href="../ico/favicon.png">
+
+    <!-- CSS -->
+    <link href="../css/thirdparty/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+          <script src="../js/thirdparty/html5shiv.min.js"></script>
+          <script src="../js/thirdparty/respond.min.js"></script>
+        <![endif]-->
+    <link href="../css/thirdparty/pnotify.custom.min.css" rel="stylesheet" media="screen">
+    <link href="../css/custom/dashboard.css" rel="stylesheet">
+
+    <!-- JS -->
+    <script type="text/javascript" src="../js/thirdparty/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/thirdparty/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script type="text/javascript" src="../js/thirdparty/ie10-viewport-bug-workaround.js"></script>
+    <script type="text/javascript" src="../js/thirdparty/highcharts/highcharts.js"></script>
+    <script type="text/javascript" src="../js/thirdparty/highcharts/modules/exporting.js"></script>
+    <!-- <script type="text/javascript" src="../js/thirdparty/highcharts/modules/offline-exporting.js"></script> -->
+    <script type="text/javascript" src="../js/custom/plot.js"></script>
+</head>
+
+<body>
+    <!-- Nav -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="pull-right"></div>
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand visible-md visible-lg" href="http://mobsec.rub.de"><img src="../img/rub/rub.png" width="100" height="50" alt="Ruhr-University Bochum">
+                </a>
+                <a class="navbar-brand" href="../static/index.html">Frontend - Password Guessing Framework</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Dashboard</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 col-md-2 sidebar">
+                <ul class="nav nav-sidebar">
+                    <li class="active"><a href="../static/index.html">Overview <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li><a href="#">Reports</a>
+                    </li>
+                    <li><a href="#">Analytics</a>
+                    </li>
+                    <li><a href="#">Export (PDF / CSV)</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+                <!-- Content -->
+                <h2 class="page-header">Dashboard</h2>
+                <div class="row placeholders">
+                    <div class="col-xs-0 col-sm-1 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+                        <div id="container" style="width:100%; height:500px;"></div>
+                    </div>
+                    <h4>Measurements</h4>
+                    <div class="col-xs-0 col-sm-1 col-md-1 col-lg-1"></div>
+                </div>
+                <h2 class="sub-header">Overview</h2>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Label</th>
+                                <th>Training Set</th>
+                                <th>Password Set</th>
+                                <th>Input Format</th>
+                                <th>Success Rate</th>
+                                <th>Status</th>
+                                <th>Runtime</th>
+                            </tr>
+                        </thead>
+                        <tbody id="table_body">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
