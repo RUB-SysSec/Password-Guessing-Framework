@@ -7,7 +7,7 @@ By default the framework supports the following password guessers:
 
 * [John the Ripper in Markov mode (JtR) - Narayanan et al. - 2005](https://github.com/magnumripper/JohnTheRipper)
 * [Probabilistic Context Free Grammar (PCFG) - Matt Weir et al. - 2009](https://sites.google.com/site/reusablesec/Home/password-cracking-tools/probablistic_cracker)
-* [Ordered Markov Enumerator (OMEN) - Markus Dürmuth et al. - 2013](https://hal.archives-ouvertes.fr/hal-01112124/file/omen.pdf) (Source code will be published soon)
+* [Ordered Markov Enumerator (OMEN) - Markus Dürmuth et al. - 2013](https://github.com/RUB-SysSec/OMEN)
 * [Probability Infinite Chained Elements (PRINCE) - Jens Steube - 2014](https://github.com/jsteube/princeprocessor)
 
 In general though, any guesser that prints the password candidates via ```STDOUT``` can be used with the framework.  
@@ -95,7 +95,7 @@ The progress and the cracking success is written into a **CSV-file** for each gu
 Web Frontend
 ------------
 
-![Alt text](/docs/screenshots/webfrontend.png?raw=true "Web Frontend")
+![Web Frontend](/docs/screenshots/webfrontend.png?raw=true "Web Frontend")
 
 To use the optional web visualization frontend, simply follow these steps:
 

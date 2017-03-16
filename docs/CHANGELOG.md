@@ -7,6 +7,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - A more convenient way to configure the framework via the run.ini
 - Comply to PEP 8 style guide for Python codes
 
+## [0.0.2] - 2017-03-16
+### Added
+- Updated OMEN.sh to match syntax of [OMEN](https://github.com/RUB-SysSec/OMEN) 0.3.0 (Released in March 2017)
+
 ## [0.0.1] - 2015-12-18
 ### Added
 - Initial upload of the framework
@@ -22,4 +26,5 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - External modules: Logger (log) by Senko Rasic and confighelper class (initiation)
 
 [Unreleased]: https://github.com/RUB-SysSec/Password-Guessing-Framework/compare/v0.0.1...HEAD
+[0.0.2]:
 [0.0.1]: https://github.com/RUB-SysSec/Password-Guessing-Framework/compare/v0.0.1...HEAD
