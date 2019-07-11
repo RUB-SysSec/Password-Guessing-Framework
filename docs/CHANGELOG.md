@@ -1,9 +1,9 @@
-# Change Log
+# Changelog
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
-### Added
+### Planned
 - A more convenient way to configure the framework via the run.ini
 - Comply to PEP 8 style guide for Python codes
 
@@ -24,7 +24,3 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - Dynamic visualization module via Highcharts JS + Python web server
 - Static visualization via Gnuplot shell script
 - External modules: Logger (log) by Senko Rasic and confighelper class (initiation)
-
-[Unreleased]: https://github.com/RUB-SysSec/Password-Guessing-Framework/compare/v0.0.1...HEAD
-[0.0.2]:
-[0.0.1]: https://github.com/RUB-SysSec/Password-Guessing-Framework/compare/v0.0.1...HEAD
